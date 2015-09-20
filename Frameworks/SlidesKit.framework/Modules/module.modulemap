@@ -1,0 +1,10 @@
+framework module SlidesKit {
+  umbrella header "SlidesKit.h"
+
+  export *
+  module * { export * }
+}
+
+module SlidesKit.Swift {
+    header "SlidesKit-Swift.h"
+}

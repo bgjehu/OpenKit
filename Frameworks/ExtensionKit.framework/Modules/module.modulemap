@@ -1,0 +1,10 @@
+framework module ExtensionKit {
+  umbrella header "ExtensionKit.h"
+
+  export *
+  module * { export * }
+}
+
+module ExtensionKit.Swift {
+    header "ExtensionKit-Swift.h"
+}
