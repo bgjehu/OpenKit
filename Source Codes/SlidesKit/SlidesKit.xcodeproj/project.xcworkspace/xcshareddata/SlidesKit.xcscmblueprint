@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0A15C3A5BD33097DCD8C333BEB5FD12B1D2EEE58",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EE5422EBFD678440AC6FF4EE3F6CA8FC96522256" : 0,
+    "0A15C3A5BD33097DCD8C333BEB5FD12B1D2EEE58" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B28E711B-6582-4532-8D97-F9A62B14D80B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EE5422EBFD678440AC6FF4EE3F6CA8FC96522256" : "ExtensionKit\/",
+    "0A15C3A5BD33097DCD8C333BEB5FD12B1D2EEE58" : "SlidesKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SlidesKit",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Source Code\/SlidesKit.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fullstackpug\/SlidesKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A15C3A5BD33097DCD8C333BEB5FD12B1D2EEE58"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/fullstackpug\/ExtensionKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EE5422EBFD678440AC6FF4EE3F6CA8FC96522256"
+    }
+  ]
+}
