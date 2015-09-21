@@ -6,15 +6,11 @@
 	<dict>
 		<key>Headers/SlidesKit-Swift.h</key>
 		<data>
-		iAqJ2IxMWpMYz1Mj5bisl85MSdg=
+		k7RR3BMjazmE0X1KvoqsuLIU240=
 		</data>
 		<key>Headers/SlidesKit.h</key>
 		<data>
 		E8MNwfa0I8qbpTnnklykmp1WLUI=
-		</data>
-		<key>Info.plist</key>
-		<data>
-		3lqSWguBC41f86ig95pmzQzIaB4=
 		</data>
 		<key>Modules/SlidesKit.swiftmodule/arm.swiftdoc</key>
 		<data>
@@ -22,7 +18,7 @@
 		</data>
 		<key>Modules/SlidesKit.swiftmodule/arm.swiftmodule</key>
 		<data>
-		qbK0GokYZyPys3ZuewtNb8bG6SU=
+		rCtvSI7Rn9+La01OZ7GXyBTtHso=
 		</data>
 		<key>Modules/SlidesKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -30,34 +26,22 @@
 		</data>
 		<key>Modules/SlidesKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		tCoym8cZAT8yyKxtB9+JKSZt2A4=
-		</data>
-		<key>Modules/SlidesKit.swiftmodule/i386.swiftdoc</key>
-		<data>
-		EmoqtuN3SmI73zdXmdZ/55tsvNA=
-		</data>
-		<key>Modules/SlidesKit.swiftmodule/i386.swiftmodule</key>
-		<data>
-		AtMr8uPW1NFBmari4rZ9WWcatfo=
-		</data>
-		<key>Modules/SlidesKit.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		JqSo0AX3ALt3i0Xs87YAfJnFT78=
-		</data>
-		<key>Modules/SlidesKit.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		h5WiLZmCC8tKQMZ75yI/GICYP1k=
+		j2fvnL6ke2gc7N+tXrPvxwLlIRs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		N62nsnR6oaaHqD48UTYpHqwDV/w=
+		</data>
+		<key>SlidesKit</key>
+		<data>
+		usnVbpSkDd0zi0NRaEkXFax+/SE=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>Headers/SlidesKit-Swift.h</key>
 		<data>
-		iAqJ2IxMWpMYz1Mj5bisl85MSdg=
+		k7RR3BMjazmE0X1KvoqsuLIU240=
 		</data>
 		<key>Headers/SlidesKit.h</key>
 		<data>
@@ -69,7 +53,7 @@
 		</data>
 		<key>Modules/SlidesKit.swiftmodule/arm.swiftmodule</key>
 		<data>
-		qbK0GokYZyPys3ZuewtNb8bG6SU=
+		rCtvSI7Rn9+La01OZ7GXyBTtHso=
 		</data>
 		<key>Modules/SlidesKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -77,27 +61,15 @@
 		</data>
 		<key>Modules/SlidesKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		tCoym8cZAT8yyKxtB9+JKSZt2A4=
-		</data>
-		<key>Modules/SlidesKit.swiftmodule/i386.swiftdoc</key>
-		<data>
-		EmoqtuN3SmI73zdXmdZ/55tsvNA=
-		</data>
-		<key>Modules/SlidesKit.swiftmodule/i386.swiftmodule</key>
-		<data>
-		AtMr8uPW1NFBmari4rZ9WWcatfo=
-		</data>
-		<key>Modules/SlidesKit.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		JqSo0AX3ALt3i0Xs87YAfJnFT78=
-		</data>
-		<key>Modules/SlidesKit.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		h5WiLZmCC8tKQMZ75yI/GICYP1k=
+		j2fvnL6ke2gc7N+tXrPvxwLlIRs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		N62nsnR6oaaHqD48UTYpHqwDV/w=
+		</data>
+		<key>SlidesKit</key>
+		<data>
+		usnVbpSkDd0zi0NRaEkXFax+/SE=
 		</data>
 	</dict>
 	<key>rules</key>
