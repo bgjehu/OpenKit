@@ -7,7 +7,4 @@
    <FileRef
       location = "group:SlidesKit/SlidesKit.xcodeproj">
    </FileRef>
-   <FileRef
-      location = "group:WearableKit/WearableKit.xcodeproj">
-   </FileRef>
 </Workspace>

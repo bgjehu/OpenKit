@@ -8,9 +8,9 @@
 
 import UIKit
 
-public enum SKCacheManagerAction : String{
-    case retrieve = "retrieve"
-    case rebuild = "rebuild"
+internal enum SKCacheManagerMode : String {
+    case retrieving = "retrieving"
+    case rebuilding = "rebuilding"
 }
 
 public class SKCacheManager: NSObject, UIWebViewDelegate {
@@ -40,7 +40,7 @@ public class SKCacheManager: NSObject, UIWebViewDelegate {
             return webView
         }
     }
-    private var ongoingAction : SKCacheManagerAction = .retrieve
+    private var mode : SKCacheManagerMode!
     public var delegate : SKCacheManagerDelegate?
     
     public override init(){
@@ -59,25 +59,26 @@ public class SKCacheManager: NSObject, UIWebViewDelegate {
         moveToResultList()
     }
     
-    public func action(action : SKCacheManagerAction, dirPath : String) {
-        self.ongoingAction = action
+    public func retrieve(dirPath : String) {
+        workCache(dirPath, mode: .retrieving)
+    }
+    
+    public func rebuildCache(dirPath : String) {
+        workCache(dirPath, mode: .rebuilding)
+    }
+    
+    private func workCache(dirPath : String, mode : SKCacheManagerMode) {
+        self.mode = mode
         reset()
         if dirPath.dirExist() {
             _dirPath = dirPath
-            totalWorkLoad = scanDir(scanAll: action == .rebuild)
+            totalWorkLoad = scanDir(scanAll: mode == .rebuilding)
             runList()
         } else {
-            print("SKCache Error: \(action.rawValue) cache with invalid dirPath = \(dirPath)")
+            print("SKCache Error: \(mode.rawValue) cache with invalid dirPath = \(dirPath)")
         }
     }
-    public func rebuild(dirPath : String) {
-        action(.rebuild, dirPath: dirPath)
-    }
-    public func retrieve(dirPath : String) {
-        action(.retrieve, dirPath: dirPath)
-    }
     
-
     
     private func scanDir(scanAll scanAllOptionOn : Bool) -> Int {
         //  iterate thru dirPath
@@ -118,9 +119,9 @@ public class SKCacheManager: NSObject, UIWebViewDelegate {
             //  store cache
             sharedCache.store()
             //  fire complete callback
-            if ongoingAction == SKCacheManagerAction.retrieve {
+            if mode == SKCacheManagerMode.retrieving {
                 delegate?.retrievalDidFinish?(self, cache: resultList)
-            } else if ongoingAction == SKCacheManagerAction.rebuild {
+            } else if mode == SKCacheManagerMode.rebuilding {
                 delegate?.rebuildingDidFinish?(self, cache: resultList)
             }
         }
@@ -130,9 +131,9 @@ public class SKCacheManager: NSObject, UIWebViewDelegate {
         sharedCache.cacheIn(firstOnList)
         resultList.append(firstOnList)
         waitlist.removeFirst()
-        if ongoingAction == SKCacheManagerAction.retrieve {
+        if mode == SKCacheManagerMode.retrieving {
             delegate?.retrievalProgressReported?(self, percent: Float(resultList.count) / Float(totalWorkLoad) )
-        } else if ongoingAction == SKCacheManagerAction.rebuild {
+        } else if mode == SKCacheManagerMode.rebuilding {
             delegate?.rebuildingProgressReported?(self, percent: Float(resultList.count) / Float(totalWorkLoad) )
         }
         runList()

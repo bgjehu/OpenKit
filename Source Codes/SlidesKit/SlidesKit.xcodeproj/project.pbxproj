@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10B40DA1BB0588700E8248D /* CGPDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D31BB0588700E8248D /* CGPDFDocument.swift */; settings = {ASSET_TAGS = (); }; };
-		A10B40DB1BB0588700E8248D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D41BB0588700E8248D /* String.swift */; settings = {ASSET_TAGS = (); }; };
-		A10B40DC1BB0588700E8248D /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D51BB0588700E8248D /* UIImage.swift */; settings = {ASSET_TAGS = (); }; };
-		A10B40DD1BB0588700E8248D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D61BB0588700E8248D /* UIView.swift */; settings = {ASSET_TAGS = (); }; };
-		A10B40DE1BB0588700E8248D /* UIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D71BB0588700E8248D /* UIWebView.swift */; settings = {ASSET_TAGS = (); }; };
-		A10B40DF1BB0588700E8248D /* ExtensionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A10B40D81BB0588700E8248D /* ExtensionKit.h */; settings = {ASSET_TAGS = (); }; };
-		A10B40E01BB0588700E8248D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A10B40D91BB0588700E8248D /* Info.plist */; settings = {ASSET_TAGS = (); }; };
+		A11CCBA61BA546860005CDC8 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CCBA31BA546860005CDC8 /* String.swift */; settings = {ASSET_TAGS = (); }; };
+		A11CCBA71BA546860005CDC8 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CCBA41BA546860005CDC8 /* UIImage.swift */; settings = {ASSET_TAGS = (); }; };
+		A11CCBA81BA546860005CDC8 /* UIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CCBA51BA546860005CDC8 /* UIWebView.swift */; settings = {ASSET_TAGS = (); }; };
+		A11CCBAA1BA5475B0005CDC8 /* CGPDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CCBA91BA5475B0005CDC8 /* CGPDFDocument.swift */; settings = {ASSET_TAGS = (); }; };
+		A11CCBAC1BA547B10005CDC8 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CCBAB1BA547B10005CDC8 /* UIView.swift */; settings = {ASSET_TAGS = (); }; };
 		A12DD43E1B994F3700FCF886 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4331B994F3700FCF886 /* Extension.swift */; settings = {ASSET_TAGS = (); }; };
 		A12DD43F1B994F3700FCF886 /* SKBaseSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4341B994F3700FCF886 /* SKBaseSlidesView.swift */; settings = {ASSET_TAGS = (); }; };
 		A12DD4401B994F3700FCF886 /* SKCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4351B994F3700FCF886 /* SKCache.swift */; settings = {ASSET_TAGS = (); }; };
@@ -29,13 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A10B40D31BB0588700E8248D /* CGPDFDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPDFDocument.swift; sourceTree = "<group>"; };
-		A10B40D41BB0588700E8248D /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		A10B40D51BB0588700E8248D /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
-		A10B40D61BB0588700E8248D /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
-		A10B40D71BB0588700E8248D /* UIWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWebView.swift; sourceTree = "<group>"; };
-		A10B40D81BB0588700E8248D /* ExtensionKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExtensionKit.h; sourceTree = "<group>"; };
-		A10B40D91BB0588700E8248D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A11CCBA31BA546860005CDC8 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		A11CCBA41BA546860005CDC8 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		A11CCBA51BA546860005CDC8 /* UIWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWebView.swift; sourceTree = "<group>"; };
+		A11CCBA91BA5475B0005CDC8 /* CGPDFDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPDFDocument.swift; sourceTree = "<group>"; };
+		A11CCBAB1BA547B10005CDC8 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		A12DD4331B994F3700FCF886 /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		A12DD4341B994F3700FCF886 /* SKBaseSlidesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKBaseSlidesView.swift; sourceTree = "<group>"; };
 		A12DD4351B994F3700FCF886 /* SKCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKCache.swift; sourceTree = "<group>"; };
@@ -63,27 +59,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A10B40D11BB0588700E8248D /* ExtensionKit */ = {
+		A11CCBA21BA546860005CDC8 /* ExtensionKit */ = {
 			isa = PBXGroup;
 			children = (
-				A10B40D21BB0588700E8248D /* ExtensionKit */,
-				A10B40D81BB0588700E8248D /* ExtensionKit.h */,
-				A10B40D91BB0588700E8248D /* Info.plist */,
+				A11CCBA91BA5475B0005CDC8 /* CGPDFDocument.swift */,
+				A11CCBA31BA546860005CDC8 /* String.swift */,
+				A11CCBA41BA546860005CDC8 /* UIImage.swift */,
+				A11CCBA51BA546860005CDC8 /* UIWebView.swift */,
+				A11CCBAB1BA547B10005CDC8 /* UIView.swift */,
 			);
 			name = ExtensionKit;
-			path = ../../ExtensionKit/ExtensionKit;
-			sourceTree = "<group>";
-		};
-		A10B40D21BB0588700E8248D /* ExtensionKit */ = {
-			isa = PBXGroup;
-			children = (
-				A10B40D31BB0588700E8248D /* CGPDFDocument.swift */,
-				A10B40D41BB0588700E8248D /* String.swift */,
-				A10B40D51BB0588700E8248D /* UIImage.swift */,
-				A10B40D61BB0588700E8248D /* UIView.swift */,
-				A10B40D71BB0588700E8248D /* UIWebView.swift */,
-			);
-			path = ExtensionKit;
+			path = "../../../ExtensionKit/Source Code/ExtensionKit/ExtensionKit";
 			sourceTree = "<group>";
 		};
 		A12DD4321B994F3700FCF886 /* SlidesKit */ = {
@@ -123,7 +109,7 @@
 		A13827191B920B0100AC33B0 /* SlidesKit */ = {
 			isa = PBXGroup;
 			children = (
-				A10B40D11BB0588700E8248D /* ExtensionKit */,
+				A11CCBA21BA546860005CDC8 /* ExtensionKit */,
 				A12DD4321B994F3700FCF886 /* SlidesKit */,
 				A138271A1B920B0100AC33B0 /* SlidesKit.h */,
 				A138271C1B920B0100AC33B0 /* Info.plist */,
@@ -139,7 +125,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A138271B1B920B0100AC33B0 /* SlidesKit.h in Headers */,
-				A10B40DF1BB0588700E8248D /* ExtensionKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +185,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10B40E01BB0588700E8248D /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,22 +195,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A11CCBAC1BA547B10005CDC8 /* UIView.swift in Sources */,
 				A12DD4421B994F3700FCF886 /* SKCacheManagerDelegate.swift in Sources */,
-				A10B40DE1BB0588700E8248D /* UIWebView.swift in Sources */,
-				A10B40DB1BB0588700E8248D /* String.swift in Sources */,
-				A10B40DA1BB0588700E8248D /* CGPDFDocument.swift in Sources */,
 				A12DD4451B994F3700FCF886 /* SKPPTSlidesView.swift in Sources */,
 				A12DD4461B994F3700FCF886 /* SKSlidesView.swift in Sources */,
 				A12DD4471B994F3700FCF886 /* SKSlidesViewDelegate.swift in Sources */,
 				A12DD4481B994F3700FCF886 /* SKStandard.swift in Sources */,
 				A12DD4411B994F3700FCF886 /* SKCacheManager.swift in Sources */,
+				A11CCBA61BA546860005CDC8 /* String.swift in Sources */,
+				A11CCBAA1BA5475B0005CDC8 /* CGPDFDocument.swift in Sources */,
 				A12DD43E1B994F3700FCF886 /* Extension.swift in Sources */,
 				A12DD4441B994F3700FCF886 /* SKPDFSlidesView.swift in Sources */,
-				A10B40DD1BB0588700E8248D /* UIView.swift in Sources */,
 				A12DD4431B994F3700FCF886 /* SKInfo.swift in Sources */,
 				A12DD43F1B994F3700FCF886 /* SKBaseSlidesView.swift in Sources */,
+				A11CCBA71BA546860005CDC8 /* UIImage.swift in Sources */,
 				A12DD4401B994F3700FCF886 /* SKCache.swift in Sources */,
-				A10B40DC1BB0588700E8248D /* UIImage.swift in Sources */,
+				A11CCBA81BA546860005CDC8 /* UIWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
