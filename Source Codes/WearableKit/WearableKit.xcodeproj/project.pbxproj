@@ -7,23 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A143EB231B92102000905EA1 /* WKNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A143EB221B92102000905EA1 /* WKNotifications.swift */; settings = {ASSET_TAGS = (); }; };
 		A1B151571B85ABEA005E1275 /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B151541B85ABEA005E1275 /* MicrosoftBandKit_iOS.framework */; };
-		A1B151581B85ABEA005E1275 /* WKMicrosoftBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B151551B85ABEA005E1275 /* WKMicrosoftBand.swift */; };
-		A1B151591B85ABEA005E1275 /* WKDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B151561B85ABEA005E1275 /* WKDevice.swift */; };
 		A1CFE8FC1B858F8B00E26689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CFE8FB1B858F8A00E26689 /* AppDelegate.swift */; };
 		A1CFE8FE1B858F8B00E26689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CFE8FD1B858F8B00E26689 /* ViewController.swift */; };
 		A1CFE9011B858F8B00E26689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CFE8FF1B858F8B00E26689 /* Main.storyboard */; };
 		A1CFE9031B858F8B00E26689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1CFE9021B858F8B00E26689 /* Assets.xcassets */; };
 		A1CFE9061B858F8B00E26689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1CFE9041B858F8B00E26689 /* LaunchScreen.storyboard */; };
+		A1F1F8961BB3167600BBD60F /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F1F88F1BB3167600BBD60F /* MicrosoftBandKit_iOS.framework */; settings = {ASSET_TAGS = (); }; };
+		A1F1F8971BB3167600BBD60F /* WKDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1F8901BB3167600BBD60F /* WKDevice.swift */; settings = {ASSET_TAGS = (); }; };
+		A1F1F8981BB3167600BBD60F /* WKDeviceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1F8911BB3167600BBD60F /* WKDeviceDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		A1F1F8991BB3167600BBD60F /* WKMicrosoftBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1F8921BB3167600BBD60F /* WKMicrosoftBand.swift */; settings = {ASSET_TAGS = (); }; };
+		A1F1F89A1BB3167600BBD60F /* WKNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1F8931BB3167600BBD60F /* WKNotifications.swift */; settings = {ASSET_TAGS = (); }; };
+		A1F1F89B1BB3167600BBD60F /* WKNotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1F8941BB3167600BBD60F /* WKNotificationType.swift */; settings = {ASSET_TAGS = (); }; };
+		A1F1F89C1BB3167600BBD60F /* WKSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F1F8951BB3167600BBD60F /* WKSensor.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A143EB221B92102000905EA1 /* WKNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKNotifications.swift; sourceTree = "<group>"; };
-		A17015551B85AE04003620BD /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		A1B151541B85ABEA005E1275 /* MicrosoftBandKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MicrosoftBandKit_iOS.framework; path = WearableKit/MicrosoftBandKit_iOS.framework; sourceTree = "<group>"; };
-		A1B151551B85ABEA005E1275 /* WKMicrosoftBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKMicrosoftBand.swift; sourceTree = "<group>"; };
-		A1B151561B85ABEA005E1275 /* WKDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKDevice.swift; sourceTree = "<group>"; };
 		A1CFE8F81B858F8A00E26689 /* WearableKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WearableKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1CFE8FB1B858F8A00E26689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1CFE8FD1B858F8B00E26689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,6 +31,14 @@
 		A1CFE9021B858F8B00E26689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1CFE9051B858F8B00E26689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1CFE9071B858F8B00E26689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F1F88E1BB3167600BBD60F /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		A1F1F88F1BB3167600BBD60F /* MicrosoftBandKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftBandKit_iOS.framework; sourceTree = "<group>"; };
+		A1F1F8901BB3167600BBD60F /* WKDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKDevice.swift; sourceTree = "<group>"; };
+		A1F1F8911BB3167600BBD60F /* WKDeviceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKDeviceDelegate.swift; sourceTree = "<group>"; };
+		A1F1F8921BB3167600BBD60F /* WKMicrosoftBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKMicrosoftBand.swift; sourceTree = "<group>"; };
+		A1F1F8931BB3167600BBD60F /* WKNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKNotifications.swift; sourceTree = "<group>"; };
+		A1F1F8941BB3167600BBD60F /* WKNotificationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKNotificationType.swift; sourceTree = "<group>"; };
+		A1F1F8951BB3167600BBD60F /* WKSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSensor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,23 +47,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1B151571B85ABEA005E1275 /* MicrosoftBandKit_iOS.framework in Frameworks */,
+				A1F1F8961BB3167600BBD60F /* MicrosoftBandKit_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A1B151531B85ABEA005E1275 /* WearableKit */ = {
-			isa = PBXGroup;
-			children = (
-				A17015551B85AE04003620BD /* BridgingHeader.h */,
-				A1B151551B85ABEA005E1275 /* WKMicrosoftBand.swift */,
-				A1B151561B85ABEA005E1275 /* WKDevice.swift */,
-				A143EB221B92102000905EA1 /* WKNotifications.swift */,
-			);
-			path = WearableKit;
-			sourceTree = "<group>";
-		};
 		A1CFE8EF1B858F8A00E26689 = {
 			isa = PBXGroup;
 			children = (
@@ -75,8 +73,8 @@
 		A1CFE8FA1B858F8A00E26689 /* WearableKit */ = {
 			isa = PBXGroup;
 			children = (
+				A1F1F88D1BB3167600BBD60F /* WearableKit */,
 				A1B151541B85ABEA005E1275 /* MicrosoftBandKit_iOS.framework */,
-				A1B151531B85ABEA005E1275 /* WearableKit */,
 				A1CFE9111B858FD200E26689 /* SupportingFile */,
 			);
 			path = WearableKit;
@@ -93,6 +91,21 @@
 				A1CFE9071B858F8B00E26689 /* Info.plist */,
 			);
 			name = SupportingFile;
+			sourceTree = "<group>";
+		};
+		A1F1F88D1BB3167600BBD60F /* WearableKit */ = {
+			isa = PBXGroup;
+			children = (
+				A1F1F88E1BB3167600BBD60F /* BridgingHeader.h */,
+				A1F1F88F1BB3167600BBD60F /* MicrosoftBandKit_iOS.framework */,
+				A1F1F8901BB3167600BBD60F /* WKDevice.swift */,
+				A1F1F8911BB3167600BBD60F /* WKDeviceDelegate.swift */,
+				A1F1F8921BB3167600BBD60F /* WKMicrosoftBand.swift */,
+				A1F1F8931BB3167600BBD60F /* WKNotifications.swift */,
+				A1F1F8941BB3167600BBD60F /* WKNotificationType.swift */,
+				A1F1F8951BB3167600BBD60F /* WKSensor.swift */,
+			);
+			path = WearableKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,11 +178,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A143EB231B92102000905EA1 /* WKNotifications.swift in Sources */,
+				A1F1F89B1BB3167600BBD60F /* WKNotificationType.swift in Sources */,
 				A1CFE8FE1B858F8B00E26689 /* ViewController.swift in Sources */,
 				A1CFE8FC1B858F8B00E26689 /* AppDelegate.swift in Sources */,
-				A1B151581B85ABEA005E1275 /* WKMicrosoftBand.swift in Sources */,
-				A1B151591B85ABEA005E1275 /* WKDevice.swift in Sources */,
+				A1F1F8991BB3167600BBD60F /* WKMicrosoftBand.swift in Sources */,
+				A1F1F8981BB3167600BBD60F /* WKDeviceDelegate.swift in Sources */,
+				A1F1F89C1BB3167600BBD60F /* WKSensor.swift in Sources */,
+				A1F1F89A1BB3167600BBD60F /* WKNotifications.swift in Sources */,
+				A1F1F8971BB3167600BBD60F /* WKDevice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

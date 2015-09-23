@@ -86,26 +86,87 @@ typedef int swift_int2  __attribute__((__ext_vector_type__(2)));
 typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
+@import ObjectiveC;
 @import UIKit;
 @import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+@protocol SKCacheManagerDelegate;
+@class UIWebView;
 
-@interface UIImage (SWIFT_EXTENSION(ExtensionKit))
+SWIFT_CLASS("_TtC9SlidesKit14SKCacheManager")
+@interface SKCacheManager : NSObject <UIWebViewDelegate>
+@property (nonatomic, readonly, copy) NSString * __nonnull dirPath;
+@property (nonatomic) id <SKCacheManagerDelegate> __nullable delegate;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+- (void)webViewDidFinishLoad:(UIWebView * __nonnull)webView;
+- (void)rebuild:(NSString * __nonnull)dirPath;
+- (void)retrieve:(NSString * __nonnull)dirPath;
+@end
+
+@class SKInfo;
+
+SWIFT_PROTOCOL("_TtP9SlidesKit22SKCacheManagerDelegate_")
+@protocol SKCacheManagerDelegate
+@optional
+- (void)retrievalDidFinish:(SKCacheManager * __nonnull)cacheManager cache:(NSArray<SKInfo *> * __nonnull)cache;
+- (void)rebuildingDidFinish:(SKCacheManager * __nonnull)cacheManager cache:(NSArray<SKInfo *> * __nonnull)cache;
+- (void)retrievalProgressReported:(SKCacheManager * __nonnull)cacheManager percent:(float)percent;
+- (void)rebuildingProgressReported:(SKCacheManager * __nonnull)cacheManager percent:(float)percent;
+@end
+
+@class NSURL;
+@class UIImage;
+
+SWIFT_CLASS("_TtC9SlidesKit6SKInfo")
+@interface SKInfo : NSObject
+@property (nonatomic, readonly, copy) NSString * __nonnull dirPath;
+@property (nonatomic, readonly, copy) NSString * __nonnull fileName;
+@property (nonatomic, readonly, copy) NSString * __nonnull filePath;
+@property (nonatomic, readonly, copy) NSString * __nonnull name;
+@property (nonatomic, readonly, copy) NSString * __nonnull ext;
+@property (nonatomic, readonly, copy) NSString * __nonnull type;
+@property (nonatomic, readonly, copy) NSString * __nonnull creationData;
+@property (nonatomic, readonly, copy) NSString * __nonnull modificationData;
+@property (nonatomic, readonly) NSURL * __nonnull url;
+@property (nonatomic, readonly) NSInteger numberOfPages;
+@property (nonatomic, readonly) UIImage * __nonnull thumbnail;
+@end
+
+@class NSCoder;
+
+SWIFT_CLASS("_TtC9SlidesKit12SKSlidesView")
+@interface SKSlidesView : UIView
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (void)load:(NSString * __nonnull)filePath;
+- (void)gotoPage:(NSInteger)pageNumber;
+- (void)nextPage;
+- (void)prevPage;
+- (void)firstPage;
+- (void)finalPage;
+@end
+
+
+@interface UIImage (SWIFT_EXTENSION(SlidesKit))
 @property (nonatomic, readonly, copy) NSString * __nullable base64Str;
 - (UIImage * __nonnull)resizeWithNewSize:(CGSize)newSize;
 @end
 
 
-@interface UIView (SWIFT_EXTENSION(ExtensionKit))
+@interface UIView (SWIFT_EXTENSION(SlidesKit))
 @end
 
 
-@interface UIWebView (SWIFT_EXTENSION(ExtensionKit))
+@interface UIWebView (SWIFT_EXTENSION(SlidesKit))
 - (void)loadRequestWithFilePath:(NSString * __nonnull)filePath;
 - (UIImage * __nonnull)getScreenshot;
+@end
+
+
+@interface UIWebView (SWIFT_EXTENSION(SlidesKit))
 @end
 
 #pragma clang diagnostic pop

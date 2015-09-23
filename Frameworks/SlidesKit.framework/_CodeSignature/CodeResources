@@ -12,6 +12,10 @@
 		<data>
 		E8MNwfa0I8qbpTnnklykmp1WLUI=
 		</data>
+		<key>Info.plist</key>
+		<data>
+		D8tm2sdlSTImzLL6dOkJ9p3NVtM=
+		</data>
 		<key>Modules/SlidesKit.swiftmodule/arm.swiftdoc</key>
 		<data>
 		71EJ+CrN/yz5gh2uhd2D9kELEP0=
@@ -28,29 +32,9 @@
 		<data>
 		r7qdk5oatXhcTtMeG4/fuXpMFGg=
 		</data>
-		<key>Modules/SlidesKit.swiftmodule/i386.swiftdoc</key>
-		<data>
-		EmoqtuN3SmI73zdXmdZ/55tsvNA=
-		</data>
-		<key>Modules/SlidesKit.swiftmodule/i386.swiftmodule</key>
-		<data>
-		UVEm52owuXtMaemTxBrr1tN2CtA=
-		</data>
-		<key>Modules/SlidesKit.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		JqSo0AX3ALt3i0Xs87YAfJnFT78=
-		</data>
-		<key>Modules/SlidesKit.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		NEJg4+18a+jO2H+kZ4plH7uvelI=
-		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		N62nsnR6oaaHqD48UTYpHqwDV/w=
-		</data>
-		<key>SlidesKit</key>
-		<data>
-		LpFwqEmOUC+JAUzFl9doK4q3oyw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -79,29 +63,9 @@
 		<data>
 		r7qdk5oatXhcTtMeG4/fuXpMFGg=
 		</data>
-		<key>Modules/SlidesKit.swiftmodule/i386.swiftdoc</key>
-		<data>
-		EmoqtuN3SmI73zdXmdZ/55tsvNA=
-		</data>
-		<key>Modules/SlidesKit.swiftmodule/i386.swiftmodule</key>
-		<data>
-		UVEm52owuXtMaemTxBrr1tN2CtA=
-		</data>
-		<key>Modules/SlidesKit.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		JqSo0AX3ALt3i0Xs87YAfJnFT78=
-		</data>
-		<key>Modules/SlidesKit.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		NEJg4+18a+jO2H+kZ4plH7uvelI=
-		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		N62nsnR6oaaHqD48UTYpHqwDV/w=
-		</data>
-		<key>SlidesKit</key>
-		<data>
-		LpFwqEmOUC+JAUzFl9doK4q3oyw=
 		</data>
 	</dict>
 	<key>rules</key>
