@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A1CFE8F71B858F8A00E26689"
+               BlueprintIdentifier = "A11F282C1BB33FE9003A41D8"
                BuildableName = "WearableKit.app"
                BlueprintName = "WearableKit"
                ReferencedContainer = "container:WearableKit.xcodeproj">
@@ -32,7 +32,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A1CFE8F71B858F8A00E26689"
+            BlueprintIdentifier = "A11F282C1BB33FE9003A41D8"
             BuildableName = "WearableKit.app"
             BlueprintName = "WearableKit"
             ReferencedContainer = "container:WearableKit.xcodeproj">
@@ -55,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A1CFE8F71B858F8A00E26689"
+            BlueprintIdentifier = "A11F282C1BB33FE9003A41D8"
             BuildableName = "WearableKit.app"
             BlueprintName = "WearableKit"
             ReferencedContainer = "container:WearableKit.xcodeproj">
@@ -74,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A1CFE8F71B858F8A00E26689"
+            BlueprintIdentifier = "A11F282C1BB33FE9003A41D8"
             BuildableName = "WearableKit.app"
             BlueprintName = "WearableKit"
             ReferencedContainer = "container:WearableKit.xcodeproj">

@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  WearableKit
 //
-//  Created by Jieyi Hu on 8/19/15.
-//  Copyright © 2015 SenseWatch. All rights reserved.
+//  Created by Jieyi Hu on 9/23/15.
+//  Copyright © 2015 fullstackpug. All rights reserved.
 //
 
 import UIKit
@@ -12,6 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
