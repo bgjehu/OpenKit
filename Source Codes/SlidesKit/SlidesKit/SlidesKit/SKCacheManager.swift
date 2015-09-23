@@ -11,6 +11,7 @@ import UIKit
 public enum SKCacheManagerAction : String{
     case retrieve = "retrieve"
     case rebuild = "rebuild"
+    case none = "none"
 }
 
 public class SKCacheManager: NSObject, UIWebViewDelegate {
@@ -60,14 +61,19 @@ public class SKCacheManager: NSObject, UIWebViewDelegate {
     }
     
     public func action(action : SKCacheManagerAction, dirPath : String) {
-        self.ongoingAction = action
-        reset()
-        if dirPath.dirExist() {
-            _dirPath = dirPath
-            totalWorkLoad = scanDir(scanAll: action == .rebuild)
-            runList()
-        } else {
-            print("SKCache Error: \(action.rawValue) cache with invalid dirPath = \(dirPath)")
+        switch(action){
+        case .none:
+            break;
+        default:
+            self.ongoingAction = action
+            reset()
+            if dirPath.dirExist() {
+                _dirPath = dirPath
+                totalWorkLoad = scanDir(scanAll: action == .rebuild)
+                runList()
+            } else {
+                print("SKCache Error: \(action.rawValue) cache with invalid dirPath = \(dirPath)")
+            }
         }
     }
     public func rebuild(dirPath : String) {
