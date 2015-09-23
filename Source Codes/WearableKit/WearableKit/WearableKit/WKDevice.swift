@@ -8,24 +8,20 @@
 
 import UIKit
 
-public protocol WKDevice : NSObjectProtocol {
+@objc public protocol WKDevice : NSObjectProtocol {
+    
     var name : String {get}
-    
-    static var sharedDevice : WKDevice {get}
-    
+    var delegate : WKDeviceDelegate? {get set}
+    var available : Bool {get}
     var connected : Bool {get}
     func connect()
     func disconnect()
-    
-    var accelerometerOn : Bool {get}
-    func startAccelerometer()
-    func stopAccelerometer()
-    
-    var accelerometerDataHandler : ([Double] -> ())? {get set}
-    
-    func registerConnectedNotification(observer:AnyObject, selector: Selector)
-    func deregisterConnectedNotification(observer:AnyObject)
-    func registerDisconnectedNotification(observer:AnyObject, selector: Selector)
-    func deregisterDisconnectedNotification(observer:AnyObject)
+    func isSensorAvailable(sensor : WKSensor) -> Bool
+    func isSensorOn(sensor : WKSensor) -> Bool
+    func startSensor(sensor : WKSensor)
+    func stopSensor(sensor : WKSensor)
+    func registerNotification(notificationType : WKNotificationType, sensor : WKSensor, observer:AnyObject, selector: Selector)
+    func deregisterNotification(notificationType : WKNotificationType, sensor : WKSensor, observer:AnyObject)
+    static func sharedDevice() -> WKDevice
 
 }
