@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/SlidesKit.swiftmodule/arm.swiftmodule</key>
 		<data>
-		rCtvSI7Rn9+La01OZ7GXyBTtHso=
+		iRn5VHoWsjDA1DpM4I8/PvIcSJw=
 		</data>
 		<key>Modules/SlidesKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -26,7 +26,23 @@
 		</data>
 		<key>Modules/SlidesKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		j2fvnL6ke2gc7N+tXrPvxwLlIRs=
+		r7qdk5oatXhcTtMeG4/fuXpMFGg=
+		</data>
+		<key>Modules/SlidesKit.swiftmodule/i386.swiftdoc</key>
+		<data>
+		EmoqtuN3SmI73zdXmdZ/55tsvNA=
+		</data>
+		<key>Modules/SlidesKit.swiftmodule/i386.swiftmodule</key>
+		<data>
+		UVEm52owuXtMaemTxBrr1tN2CtA=
+		</data>
+		<key>Modules/SlidesKit.swiftmodule/x86_64.swiftdoc</key>
+		<data>
+		JqSo0AX3ALt3i0Xs87YAfJnFT78=
+		</data>
+		<key>Modules/SlidesKit.swiftmodule/x86_64.swiftmodule</key>
+		<data>
+		NEJg4+18a+jO2H+kZ4plH7uvelI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -34,7 +50,7 @@
 		</data>
 		<key>SlidesKit</key>
 		<data>
-		usnVbpSkDd0zi0NRaEkXFax+/SE=
+		LpFwqEmOUC+JAUzFl9doK4q3oyw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -53,7 +69,7 @@
 		</data>
 		<key>Modules/SlidesKit.swiftmodule/arm.swiftmodule</key>
 		<data>
-		rCtvSI7Rn9+La01OZ7GXyBTtHso=
+		iRn5VHoWsjDA1DpM4I8/PvIcSJw=
 		</data>
 		<key>Modules/SlidesKit.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -61,7 +77,23 @@
 		</data>
 		<key>Modules/SlidesKit.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		j2fvnL6ke2gc7N+tXrPvxwLlIRs=
+		r7qdk5oatXhcTtMeG4/fuXpMFGg=
+		</data>
+		<key>Modules/SlidesKit.swiftmodule/i386.swiftdoc</key>
+		<data>
+		EmoqtuN3SmI73zdXmdZ/55tsvNA=
+		</data>
+		<key>Modules/SlidesKit.swiftmodule/i386.swiftmodule</key>
+		<data>
+		UVEm52owuXtMaemTxBrr1tN2CtA=
+		</data>
+		<key>Modules/SlidesKit.swiftmodule/x86_64.swiftdoc</key>
+		<data>
+		JqSo0AX3ALt3i0Xs87YAfJnFT78=
+		</data>
+		<key>Modules/SlidesKit.swiftmodule/x86_64.swiftmodule</key>
+		<data>
+		NEJg4+18a+jO2H+kZ4plH7uvelI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -69,7 +101,7 @@
 		</data>
 		<key>SlidesKit</key>
 		<data>
-		usnVbpSkDd0zi0NRaEkXFax+/SE=
+		LpFwqEmOUC+JAUzFl9doK4q3oyw=
 		</data>
 	</dict>
 	<key>rules</key>
