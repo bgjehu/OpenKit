@@ -13,12 +13,18 @@
 		A11F28381BB33FE9003A41D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A11F28371BB33FE9003A41D8 /* Assets.xcassets */; };
 		A11F283B1BB33FE9003A41D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A11F28391BB33FE9003A41D8 /* LaunchScreen.storyboard */; };
 		A11F284B1BB34000003A41D8 /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A11F28441BB34000003A41D8 /* MicrosoftBandKit_iOS.framework */; settings = {ASSET_TAGS = (); }; };
-		A11F284C1BB34000003A41D8 /* WKDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F28451BB34000003A41D8 /* WKDevice.swift */; settings = {ASSET_TAGS = (); }; };
-		A11F284D1BB34000003A41D8 /* WKDeviceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F28461BB34000003A41D8 /* WKDeviceDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		A11F284E1BB34000003A41D8 /* WKMicrosoftBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F28471BB34000003A41D8 /* WKMicrosoftBand.swift */; settings = {ASSET_TAGS = (); }; };
-		A11F284F1BB34000003A41D8 /* WKNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F28481BB34000003A41D8 /* WKNotifications.swift */; settings = {ASSET_TAGS = (); }; };
-		A11F28501BB34000003A41D8 /* WKNotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F28491BB34000003A41D8 /* WKNotificationType.swift */; settings = {ASSET_TAGS = (); }; };
-		A11F28511BB34000003A41D8 /* WKSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11F284A1BB34000003A41D8 /* WKSensor.swift */; settings = {ASSET_TAGS = (); }; };
+		A1CCFBF71BB6F88D00E08CFD /* MSBApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBEB1BB6F88D00E08CFD /* MSBApplication.swift */; settings = {ASSET_TAGS = (); }; };
+		A1CCFBF81BB6F88D00E08CFD /* MSBApplicationInstallationSharedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBEC1BB6F88D00E08CFD /* MSBApplicationInstallationSharedObject.swift */; settings = {ASSET_TAGS = (); }; };
+		A1CCFBF91BB6F88D00E08CFD /* MSBBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBED1BB6F88D00E08CFD /* MSBBand.swift */; settings = {ASSET_TAGS = (); }; };
+		A1CCFBFA1BB6F88D00E08CFD /* MSBBandDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBEE1BB6F88D00E08CFD /* MSBBandDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		A1CCFBFB1BB6F88D00E08CFD /* MSBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBEF1BB6F88D00E08CFD /* MSBError.swift */; settings = {ASSET_TAGS = (); }; };
+		A1CCFBFC1BB6F88D00E08CFD /* MSBNotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBF01BB6F88D00E08CFD /* MSBNotificationType.swift */; settings = {ASSET_TAGS = (); }; };
+		A1CCFBFD1BB6F88D00E08CFD /* MSBPageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBF11BB6F88D00E08CFD /* MSBPageData.swift */; settings = {ASSET_TAGS = (); }; };
+		A1CCFBFE1BB6F88D00E08CFD /* MSBPageFlowPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBF21BB6F88D00E08CFD /* MSBPageFlowPanel.swift */; settings = {ASSET_TAGS = (); }; };
+		A1CCFBFF1BB6F88D00E08CFD /* MSBPageTextBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBF31BB6F88D00E08CFD /* MSBPageTextBlock.swift */; settings = {ASSET_TAGS = (); }; };
+		A1CCFC001BB6F88D00E08CFD /* MSBPageTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBF41BB6F88D00E08CFD /* MSBPageTextButton.swift */; settings = {ASSET_TAGS = (); }; };
+		A1CCFC011BB6F88D00E08CFD /* MSBSensorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBF51BB6F88D00E08CFD /* MSBSensorType.swift */; settings = {ASSET_TAGS = (); }; };
+		A1CCFC021BB6F88D00E08CFD /* MSBTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBF61BB6F88D00E08CFD /* MSBTile.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,12 +37,18 @@
 		A11F283C1BB33FE9003A41D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A11F28431BB34000003A41D8 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		A11F28441BB34000003A41D8 /* MicrosoftBandKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftBandKit_iOS.framework; sourceTree = "<group>"; };
-		A11F28451BB34000003A41D8 /* WKDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKDevice.swift; sourceTree = "<group>"; };
-		A11F28461BB34000003A41D8 /* WKDeviceDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKDeviceDelegate.swift; sourceTree = "<group>"; };
-		A11F28471BB34000003A41D8 /* WKMicrosoftBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKMicrosoftBand.swift; sourceTree = "<group>"; };
-		A11F28481BB34000003A41D8 /* WKNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKNotifications.swift; sourceTree = "<group>"; };
-		A11F28491BB34000003A41D8 /* WKNotificationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKNotificationType.swift; sourceTree = "<group>"; };
-		A11F284A1BB34000003A41D8 /* WKSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKSensor.swift; sourceTree = "<group>"; };
+		A1CCFBEB1BB6F88D00E08CFD /* MSBApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBApplication.swift; sourceTree = "<group>"; };
+		A1CCFBEC1BB6F88D00E08CFD /* MSBApplicationInstallationSharedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBApplicationInstallationSharedObject.swift; sourceTree = "<group>"; };
+		A1CCFBED1BB6F88D00E08CFD /* MSBBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBBand.swift; sourceTree = "<group>"; };
+		A1CCFBEE1BB6F88D00E08CFD /* MSBBandDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBBandDelegate.swift; sourceTree = "<group>"; };
+		A1CCFBEF1BB6F88D00E08CFD /* MSBError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBError.swift; sourceTree = "<group>"; };
+		A1CCFBF01BB6F88D00E08CFD /* MSBNotificationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBNotificationType.swift; sourceTree = "<group>"; };
+		A1CCFBF11BB6F88D00E08CFD /* MSBPageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBPageData.swift; sourceTree = "<group>"; };
+		A1CCFBF21BB6F88D00E08CFD /* MSBPageFlowPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBPageFlowPanel.swift; sourceTree = "<group>"; };
+		A1CCFBF31BB6F88D00E08CFD /* MSBPageTextBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBPageTextBlock.swift; sourceTree = "<group>"; };
+		A1CCFBF41BB6F88D00E08CFD /* MSBPageTextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBPageTextButton.swift; sourceTree = "<group>"; };
+		A1CCFBF51BB6F88D00E08CFD /* MSBSensorType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBSensorType.swift; sourceTree = "<group>"; };
+		A1CCFBF61BB6F88D00E08CFD /* MSBTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBTile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,12 +98,18 @@
 			children = (
 				A11F28441BB34000003A41D8 /* MicrosoftBandKit_iOS.framework */,
 				A11F28431BB34000003A41D8 /* BridgingHeader.h */,
-				A11F28451BB34000003A41D8 /* WKDevice.swift */,
-				A11F28461BB34000003A41D8 /* WKDeviceDelegate.swift */,
-				A11F28471BB34000003A41D8 /* WKMicrosoftBand.swift */,
-				A11F28481BB34000003A41D8 /* WKNotifications.swift */,
-				A11F28491BB34000003A41D8 /* WKNotificationType.swift */,
-				A11F284A1BB34000003A41D8 /* WKSensor.swift */,
+				A1CCFBEB1BB6F88D00E08CFD /* MSBApplication.swift */,
+				A1CCFBEC1BB6F88D00E08CFD /* MSBApplicationInstallationSharedObject.swift */,
+				A1CCFBED1BB6F88D00E08CFD /* MSBBand.swift */,
+				A1CCFBEE1BB6F88D00E08CFD /* MSBBandDelegate.swift */,
+				A1CCFBEF1BB6F88D00E08CFD /* MSBError.swift */,
+				A1CCFBF01BB6F88D00E08CFD /* MSBNotificationType.swift */,
+				A1CCFBF11BB6F88D00E08CFD /* MSBPageData.swift */,
+				A1CCFBF21BB6F88D00E08CFD /* MSBPageFlowPanel.swift */,
+				A1CCFBF31BB6F88D00E08CFD /* MSBPageTextBlock.swift */,
+				A1CCFBF41BB6F88D00E08CFD /* MSBPageTextButton.swift */,
+				A1CCFBF51BB6F88D00E08CFD /* MSBSensorType.swift */,
+				A1CCFBF61BB6F88D00E08CFD /* MSBTile.swift */,
 			);
 			path = WearableKit;
 			sourceTree = "<group>";
@@ -166,14 +184,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A11F28501BB34000003A41D8 /* WKNotificationType.swift in Sources */,
+				A1CCFBFE1BB6F88D00E08CFD /* MSBPageFlowPanel.swift in Sources */,
+				A1CCFBFF1BB6F88D00E08CFD /* MSBPageTextBlock.swift in Sources */,
+				A1CCFC021BB6F88D00E08CFD /* MSBTile.swift in Sources */,
+				A1CCFC011BB6F88D00E08CFD /* MSBSensorType.swift in Sources */,
+				A1CCFBFA1BB6F88D00E08CFD /* MSBBandDelegate.swift in Sources */,
+				A1CCFBFB1BB6F88D00E08CFD /* MSBError.swift in Sources */,
+				A1CCFBF71BB6F88D00E08CFD /* MSBApplication.swift in Sources */,
+				A1CCFBF91BB6F88D00E08CFD /* MSBBand.swift in Sources */,
+				A1CCFC001BB6F88D00E08CFD /* MSBPageTextButton.swift in Sources */,
+				A1CCFBFD1BB6F88D00E08CFD /* MSBPageData.swift in Sources */,
+				A1CCFBF81BB6F88D00E08CFD /* MSBApplicationInstallationSharedObject.swift in Sources */,
 				A11F28331BB33FE9003A41D8 /* ViewController.swift in Sources */,
 				A11F28311BB33FE9003A41D8 /* AppDelegate.swift in Sources */,
-				A11F284E1BB34000003A41D8 /* WKMicrosoftBand.swift in Sources */,
-				A11F284D1BB34000003A41D8 /* WKDeviceDelegate.swift in Sources */,
-				A11F28511BB34000003A41D8 /* WKSensor.swift in Sources */,
-				A11F284F1BB34000003A41D8 /* WKNotifications.swift in Sources */,
-				A11F284C1BB34000003A41D8 /* WKDevice.swift in Sources */,
+				A1CCFBFC1BB6F88D00E08CFD /* MSBNotificationType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +359,7 @@
 				A11F28411BB33FE9003A41D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

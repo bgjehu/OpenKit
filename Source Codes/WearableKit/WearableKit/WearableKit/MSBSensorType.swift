@@ -1,5 +1,5 @@
 //
-//  WKSensor.swift
+//  MSBSensorType.swift
 //  AirFlip
 //
 //  Created by Jieyi Hu on 9/22/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-@objc public enum WKSensor : Int {
+@objc public enum MSBSensorType : Int {
     case None = 0
     case Accelerometer          //  1
     case Gyroscope              //  2

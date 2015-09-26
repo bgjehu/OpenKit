@@ -86,12 +86,18 @@ typedef int swift_int2  __attribute__((__ext_vector_type__(2)));
 typedef int swift_int3  __attribute__((__ext_vector_type__(3)));
 typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 #if defined(__has_feature) && __has_feature(modules)
+@import Foundation;
 @import UIKit;
 @import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
 #pragma clang diagnostic ignored "-Wduplicate-method-arg"
+
+@interface NSUUID (SWIFT_EXTENSION(ExtensionKit))
+- (BOOL)isEqual:(id __nullable)object;
+@end
+
 
 @interface UIImage (SWIFT_EXTENSION(ExtensionKit))
 @property (nonatomic, readonly, copy) NSString * __nullable base64Str;
