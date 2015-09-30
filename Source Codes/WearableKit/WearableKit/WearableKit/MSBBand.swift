@@ -9,7 +9,7 @@
 import UIKit
 
 
-public class MSBBand: NSObject, MSBClientManagerDelegate, MSBBandDelegate {
+public class MSBBand: NSObject, MSBClientManagerDelegate, MSBBandDelegate, MSBClientTileDelegate {
     
     
     
@@ -73,6 +73,7 @@ public class MSBBand: NSObject, MSBClientManagerDelegate, MSBBandDelegate {
         The delegate of the MSBBand instance.
     */
     public var delegate : MSBBandDelegate?
+    public var tileDelegate : MSBBandTileDelegate?
     
     
     
@@ -535,6 +536,8 @@ public class MSBBand: NSObject, MSBClientManagerDelegate, MSBBandDelegate {
     }
     
     public func clientManager(clientManager: MSBClientManager!, clientDidConnect client: MSBClient!) {
+        _client?.tileDelegate = self
+        
         delegate?.band?(self, didConnectWithInfo: nil)
         postNotification(.didConnect, type: .None)
         print("WKMicrosoftBand Log: Microsoft Band is connected")
@@ -546,9 +549,16 @@ public class MSBBand: NSObject, MSBClientManagerDelegate, MSBBandDelegate {
         print("WKMicrosoftBand Log: Microsoft Band is disconnected")
     }
     
-    
-    
-    
+    //  MARK: MSBClientTileDelegate
+    public func client(client: MSBClient!, buttonDidPress event: MSBTileButtonEvent!) {
+        tileDelegate?.band?(self, hadButtonPressedWithEvent: event)
+    }
+    public func client(client: MSBClient!, tileDidClose event: MSBTileEvent!) {
+        tileDelegate?.band?(self, didCloseTileWithEvent: event)
+    }
+    public func client(client: MSBClient!, tileDidOpen event: MSBTileEvent!) {
+        tileDelegate?.band?(self, didOpenTileWithEvent: event)
+    }
     
     //  MARK: Application Installation Delegate
     public func band(band: MSBBand, didRetrieveCapacity capacity: UInt) {

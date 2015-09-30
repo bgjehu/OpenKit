@@ -45,9 +45,6 @@ public extension MSBTile {
             return true
         }
     }
-    func UUIDIsEqual(uuid : NSUUID) -> Bool {
-        return self.tileId.isEqual(uuid)
-    }
 }
 
 // MARK: [MSBTile]
@@ -55,7 +52,7 @@ public extension CollectionType where Generator.Element == MSBTile {
     func containsTile(tile : MSBTile) -> Bool {
         if self.count > 0 {
             for index in startIndex..<endIndex {
-                if self[index].UUIDIsEqual(tile.tileId) {
+                if self[index].tileId == tile.tileId {
                     return true
                 }
             }
@@ -67,7 +64,7 @@ public extension CollectionType where Generator.Element == MSBTile {
     func getTile(tileId : NSUUID) -> MSBTile? {
         if self.count > 0 {
             for index in startIndex..<endIndex {
-                if self[index].UUIDIsEqual(tileId) {
+                if self[index].tileId == tileId {
                     return self[index]
                 }
             }

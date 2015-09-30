@@ -19,7 +19,6 @@
 		A1CCFBFA1BB6F88D00E08CFD /* MSBBandDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBEE1BB6F88D00E08CFD /* MSBBandDelegate.swift */; settings = {ASSET_TAGS = (); }; };
 		A1CCFBFB1BB6F88D00E08CFD /* MSBError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBEF1BB6F88D00E08CFD /* MSBError.swift */; settings = {ASSET_TAGS = (); }; };
 		A1CCFBFC1BB6F88D00E08CFD /* MSBNotificationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBF01BB6F88D00E08CFD /* MSBNotificationType.swift */; settings = {ASSET_TAGS = (); }; };
-		A1CCFBFD1BB6F88D00E08CFD /* MSBPageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBF11BB6F88D00E08CFD /* MSBPageData.swift */; settings = {ASSET_TAGS = (); }; };
 		A1CCFBFE1BB6F88D00E08CFD /* MSBPageFlowPanel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBF21BB6F88D00E08CFD /* MSBPageFlowPanel.swift */; settings = {ASSET_TAGS = (); }; };
 		A1CCFBFF1BB6F88D00E08CFD /* MSBPageTextBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBF31BB6F88D00E08CFD /* MSBPageTextBlock.swift */; settings = {ASSET_TAGS = (); }; };
 		A1CCFC001BB6F88D00E08CFD /* MSBPageTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CCFBF41BB6F88D00E08CFD /* MSBPageTextButton.swift */; settings = {ASSET_TAGS = (); }; };
@@ -43,7 +42,6 @@
 		A1CCFBEE1BB6F88D00E08CFD /* MSBBandDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBBandDelegate.swift; sourceTree = "<group>"; };
 		A1CCFBEF1BB6F88D00E08CFD /* MSBError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBError.swift; sourceTree = "<group>"; };
 		A1CCFBF01BB6F88D00E08CFD /* MSBNotificationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBNotificationType.swift; sourceTree = "<group>"; };
-		A1CCFBF11BB6F88D00E08CFD /* MSBPageData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBPageData.swift; sourceTree = "<group>"; };
 		A1CCFBF21BB6F88D00E08CFD /* MSBPageFlowPanel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBPageFlowPanel.swift; sourceTree = "<group>"; };
 		A1CCFBF31BB6F88D00E08CFD /* MSBPageTextBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBPageTextBlock.swift; sourceTree = "<group>"; };
 		A1CCFBF41BB6F88D00E08CFD /* MSBPageTextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSBPageTextButton.swift; sourceTree = "<group>"; };
@@ -104,7 +102,6 @@
 				A1CCFBEE1BB6F88D00E08CFD /* MSBBandDelegate.swift */,
 				A1CCFBEF1BB6F88D00E08CFD /* MSBError.swift */,
 				A1CCFBF01BB6F88D00E08CFD /* MSBNotificationType.swift */,
-				A1CCFBF11BB6F88D00E08CFD /* MSBPageData.swift */,
 				A1CCFBF21BB6F88D00E08CFD /* MSBPageFlowPanel.swift */,
 				A1CCFBF31BB6F88D00E08CFD /* MSBPageTextBlock.swift */,
 				A1CCFBF41BB6F88D00E08CFD /* MSBPageTextButton.swift */,
@@ -193,7 +190,6 @@
 				A1CCFBF71BB6F88D00E08CFD /* MSBApplication.swift in Sources */,
 				A1CCFBF91BB6F88D00E08CFD /* MSBBand.swift in Sources */,
 				A1CCFC001BB6F88D00E08CFD /* MSBPageTextButton.swift in Sources */,
-				A1CCFBFD1BB6F88D00E08CFD /* MSBPageData.swift in Sources */,
 				A1CCFBF81BB6F88D00E08CFD /* MSBApplicationInstallationSharedObject.swift in Sources */,
 				A11F28331BB33FE9003A41D8 /* ViewController.swift in Sources */,
 				A11F28311BB33FE9003A41D8 /* AppDelegate.swift in Sources */,

@@ -13,7 +13,6 @@
 		A11CCBC51BA547F30005CDC8 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CCBC01BA547F30005CDC8 /* UIImage.swift */; settings = {ASSET_TAGS = (); }; };
 		A11CCBC61BA547F30005CDC8 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CCBC11BA547F30005CDC8 /* UIView.swift */; settings = {ASSET_TAGS = (); }; };
 		A11CCBC71BA547F30005CDC8 /* UIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11CCBC21BA547F30005CDC8 /* UIWebView.swift */; settings = {ASSET_TAGS = (); }; };
-		A16E47D81BB44F7F00283A5D /* NSUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = A16E47D71BB44F7F00283A5D /* NSUUID.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		A11CCBC01BA547F30005CDC8 /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		A11CCBC11BA547F30005CDC8 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		A11CCBC21BA547F30005CDC8 /* UIWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIWebView.swift; sourceTree = "<group>"; };
-		A16E47D71BB44F7F00283A5D /* NSUUID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUUID.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +71,6 @@
 				A11CCBC01BA547F30005CDC8 /* UIImage.swift */,
 				A11CCBC11BA547F30005CDC8 /* UIView.swift */,
 				A11CCBC21BA547F30005CDC8 /* UIWebView.swift */,
-				A16E47D71BB44F7F00283A5D /* NSUUID.swift */,
 			);
 			path = ExtensionKit;
 			sourceTree = "<group>";
@@ -158,7 +155,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A11CCBC61BA547F30005CDC8 /* UIView.swift in Sources */,
-				A16E47D81BB44F7F00283A5D /* NSUUID.swift in Sources */,
 				A11CCBC51BA547F30005CDC8 /* UIImage.swift in Sources */,
 				A11CCBC71BA547F30005CDC8 /* UIWebView.swift in Sources */,
 				A11CCBC41BA547F30005CDC8 /* String.swift in Sources */,
