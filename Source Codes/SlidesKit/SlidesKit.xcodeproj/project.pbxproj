@@ -7,26 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A10B40DA1BB0588700E8248D /* CGPDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D31BB0588700E8248D /* CGPDFDocument.swift */; settings = {ASSET_TAGS = (); }; };
-		A10B40DB1BB0588700E8248D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D41BB0588700E8248D /* String.swift */; settings = {ASSET_TAGS = (); }; };
-		A10B40DC1BB0588700E8248D /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D51BB0588700E8248D /* UIImage.swift */; settings = {ASSET_TAGS = (); }; };
-		A10B40DD1BB0588700E8248D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D61BB0588700E8248D /* UIView.swift */; settings = {ASSET_TAGS = (); }; };
-		A10B40DE1BB0588700E8248D /* UIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D71BB0588700E8248D /* UIWebView.swift */; settings = {ASSET_TAGS = (); }; };
-		A10B40DF1BB0588700E8248D /* ExtensionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A10B40D81BB0588700E8248D /* ExtensionKit.h */; settings = {ASSET_TAGS = (); }; };
-		A10B40E01BB0588700E8248D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A10B40D91BB0588700E8248D /* Info.plist */; settings = {ASSET_TAGS = (); }; };
-		A12DD43E1B994F3700FCF886 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4331B994F3700FCF886 /* Extension.swift */; settings = {ASSET_TAGS = (); }; };
-		A12DD43F1B994F3700FCF886 /* SKBaseSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4341B994F3700FCF886 /* SKBaseSlidesView.swift */; settings = {ASSET_TAGS = (); }; };
-		A12DD4401B994F3700FCF886 /* SKCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4351B994F3700FCF886 /* SKCache.swift */; settings = {ASSET_TAGS = (); }; };
-		A12DD4411B994F3700FCF886 /* SKCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4361B994F3700FCF886 /* SKCacheManager.swift */; settings = {ASSET_TAGS = (); }; };
-		A12DD4421B994F3700FCF886 /* SKCacheManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4371B994F3700FCF886 /* SKCacheManagerDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		A12DD4431B994F3700FCF886 /* SKInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4381B994F3700FCF886 /* SKInfo.swift */; settings = {ASSET_TAGS = (); }; };
-		A12DD4441B994F3700FCF886 /* SKPDFSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4391B994F3700FCF886 /* SKPDFSlidesView.swift */; settings = {ASSET_TAGS = (); }; };
-		A12DD4451B994F3700FCF886 /* SKPPTSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD43A1B994F3700FCF886 /* SKPPTSlidesView.swift */; settings = {ASSET_TAGS = (); }; };
-		A12DD4461B994F3700FCF886 /* SKSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD43B1B994F3700FCF886 /* SKSlidesView.swift */; settings = {ASSET_TAGS = (); }; };
-		A12DD4471B994F3700FCF886 /* SKSlidesViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD43C1B994F3700FCF886 /* SKSlidesViewDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		A12DD4481B994F3700FCF886 /* SKStandard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD43D1B994F3700FCF886 /* SKStandard.swift */; settings = {ASSET_TAGS = (); }; };
+		A10B40DA1BB0588700E8248D /* CGPDFDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D31BB0588700E8248D /* CGPDFDocument.swift */; };
+		A10B40DB1BB0588700E8248D /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D41BB0588700E8248D /* String.swift */; };
+		A10B40DC1BB0588700E8248D /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D51BB0588700E8248D /* UIImage.swift */; };
+		A10B40DD1BB0588700E8248D /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D61BB0588700E8248D /* UIView.swift */; };
+		A10B40DE1BB0588700E8248D /* UIWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10B40D71BB0588700E8248D /* UIWebView.swift */; };
+		A10B40DF1BB0588700E8248D /* ExtensionKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A10B40D81BB0588700E8248D /* ExtensionKit.h */; };
+		A10B40E01BB0588700E8248D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A10B40D91BB0588700E8248D /* Info.plist */; };
+		A12DD43E1B994F3700FCF886 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4331B994F3700FCF886 /* Extension.swift */; };
+		A12DD43F1B994F3700FCF886 /* SKBaseSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4341B994F3700FCF886 /* SKBaseSlidesView.swift */; };
+		A12DD4401B994F3700FCF886 /* SKCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4351B994F3700FCF886 /* SKCache.swift */; };
+		A12DD4411B994F3700FCF886 /* SKCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4361B994F3700FCF886 /* SKCacheManager.swift */; };
+		A12DD4421B994F3700FCF886 /* SKCacheManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4371B994F3700FCF886 /* SKCacheManagerDelegate.swift */; };
+		A12DD4431B994F3700FCF886 /* SKInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4381B994F3700FCF886 /* SKInfo.swift */; };
+		A12DD4441B994F3700FCF886 /* SKPDFSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD4391B994F3700FCF886 /* SKPDFSlidesView.swift */; };
+		A12DD4451B994F3700FCF886 /* SKPPTSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD43A1B994F3700FCF886 /* SKPPTSlidesView.swift */; };
+		A12DD4461B994F3700FCF886 /* SKSlidesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD43B1B994F3700FCF886 /* SKSlidesView.swift */; };
+		A12DD4471B994F3700FCF886 /* SKSlidesViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD43C1B994F3700FCF886 /* SKSlidesViewDelegate.swift */; };
+		A12DD4481B994F3700FCF886 /* SKStandard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12DD43D1B994F3700FCF886 /* SKStandard.swift */; };
 		A138271B1B920B0100AC33B0 /* SlidesKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A138271A1B920B0100AC33B0 /* SlidesKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8C44B871C407F2A005D51AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8C44B831C407F2A005D51AE /* MSBWrapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D8C44B571C407DB2005D51AE;
+			remoteInfo = MSBWrapper;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A10B40D31BB0588700E8248D /* CGPDFDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CGPDFDocument.swift; sourceTree = "<group>"; };
@@ -50,6 +60,7 @@
 		A13827171B920B0100AC33B0 /* SlidesKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SlidesKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A138271A1B920B0100AC33B0 /* SlidesKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlidesKit.h; sourceTree = "<group>"; };
 		A138271C1B920B0100AC33B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8C44B831C407F2A005D51AE /* MSBWrapper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MSBWrapper.xcodeproj; path = ../MSBWrapper/MSBWrapper.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +118,7 @@
 		A138270D1B920B0100AC33B0 = {
 			isa = PBXGroup;
 			children = (
+				D8C44B831C407F2A005D51AE /* MSBWrapper.xcodeproj */,
 				A13827191B920B0100AC33B0 /* SlidesKit */,
 				A13827181B920B0100AC33B0 /* Products */,
 			);
@@ -129,6 +141,14 @@
 				A138271C1B920B0100AC33B0 /* Info.plist */,
 			);
 			path = SlidesKit;
+			sourceTree = "<group>";
+		};
+		D8C44B841C407F2A005D51AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8C44B881C407F2A005D51AE /* MSBWrapper.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +195,7 @@
 				TargetAttributes = {
 					A13827161B920B0100AC33B0 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = J6AJQ8THRK;
 					};
 				};
 			};
@@ -188,12 +209,28 @@
 			mainGroup = A138270D1B920B0100AC33B0;
 			productRefGroup = A13827181B920B0100AC33B0 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D8C44B841C407F2A005D51AE /* Products */;
+					ProjectRef = D8C44B831C407F2A005D51AE /* MSBWrapper.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				A13827161B920B0100AC33B0 /* SlidesKit */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D8C44B881C407F2A005D51AE /* MSBWrapper.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MSBWrapper.app;
+			remoteRef = D8C44B871C407F2A005D51AE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		A13827151B920B0100AC33B0 /* Resources */ = {
@@ -326,6 +363,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -336,6 +375,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.fullstackpug.SlidesKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
@@ -345,6 +385,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -354,6 +396,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fullstackpug.SlidesKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};

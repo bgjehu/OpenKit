@@ -2,10 +2,10 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:WearableKit/WearableKit.xcodeproj">
+      location = "group:ExtensionKit/ExtensionKit.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:ExtensionKit/ExtensionKit.xcodeproj">
+      location = "group:MSBWrapper/MSBWrapper.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:SlidesKit/SlidesKit.xcodeproj">
